@@ -1,0 +1,34 @@
+body{
+    height: 100vh;
+    background-color: #F7F6F6;
+}
+
+section,.div-form{
+    height: 75vh;
+}
+
+footer{
+    height: 25vh;
+}
+
+.div-form{
+    height: 70%;
+}
+
+.div-titulo{
+    height: 30%;
+}
+
+.email{
+    width: 30px;
+}
+
+.logo{
+    width: 20%;
+}
+/* 768, 992, 1200, 1400 */
+@media (max-width: 576px){
+    .logo{
+        width: 50%;
+    }
+}
