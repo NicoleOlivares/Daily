@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "axios": "^0.27.2",
+    "bootstrap": "^5.2.0-beta1",
+    "react-router-dom": "^6.3.0"
+  },
+  "name": "vistasdaily",
+  "description": "Nota: aquí ire subiendo mis progresos para luego mostrarlos y proponerlos al grupo 5",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicoleOlivares/Daily.git"
+  },
+  "keywords": [
+    "prueba"
+  ],
+  "author": "nicoleolivares",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NicoleOlivares/Daily/issues"
+  },
+  "homepage": "https://github.com/NicoleOlivares/Daily#readme"
+}
