@@ -176,16 +176,15 @@ const VistaGeneralComponent = () => {
 
                     {/*Calendario y filtro de preguntas*/}
                     <div className="col-2">
-                        <br />
-                        <form>
-                            <input type="date" />
-                        </form>
-                        <select className="custom-select">
+                        <select className="custom-select mb-5">
                             <option value={1}>Mostrar todo</option>
                             <option value={2}>¿Qué se hizo ayer?</option>
                             <option value={3}>¿Qué se hará hoy?</option>
                             <option value={4}>¿Qué obstáculos existen?</option>
                         </select>
+                        <form>
+                            <input type="date"  className="my-5"/>
+                        </form>
                     </div>
 
 
