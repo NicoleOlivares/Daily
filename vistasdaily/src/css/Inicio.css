@@ -2,11 +2,9 @@
 * {
     font-family: 'Amiko', sans-serif;
 }
-html, body{
-    height: 100%;
-}
-.contenedor{ /* debe ir en los dos primeros div despues del body */
-    height: 100%;
+
+.cuerpo {
+    height: 100vh;
 }
 #fondo-color{
     background-color: #f7f6f6;
@@ -14,16 +12,26 @@ html, body{
 
 /* Left */
 #logo-inicio{
-    width: 250px;
-    margin-top: 45%;
+    width: 200px;
+    height: 200px;
+    margin-top: 10%;
 }
 
 
 /* Right */
 .inicio-R {
-    background-image: url(../img/DailyStandAPP-inicio-fondo-derecho.png);
+    background-color: #bf83f0;
+    opacity: 0.8;
+}
+
+
+
+#posit{
+    width: 100%;
+    height: 100%;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size:contain;
+    padding: 70px;
 }
 

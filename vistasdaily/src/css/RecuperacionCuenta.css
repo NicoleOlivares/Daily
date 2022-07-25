@@ -4,28 +4,22 @@ body{
 }
 
 section,.div-form{
-    height: 75vh;
+    height: 50vh;
 }
 
-footer{
+header{
     height: 25vh;
 }
 
 .div-form{
-    height: 70%;
-}
-
-.div-titulo{
-    height: 30%;
+    height: 70hv;
 }
 
 .email{
     width: 30px;
 }
 
-.logo{
-    width: 20%;
-}
+
 /* 768, 992, 1200, 1400 */
 @media (max-width: 576px){
     .logo{

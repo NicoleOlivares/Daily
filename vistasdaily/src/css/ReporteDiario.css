@@ -1,0 +1,30 @@
+textarea {
+    resize: none;
+}
+
+.pregunta1 {
+    margin: 0px;
+    background-color: #590696;
+    color: white;
+    font-size: 20px;
+}
+
+.pregunta2 {
+    margin: 0px;
+    background-color: #C70A80;
+    color: white;
+    font-size: 20px;
+}
+
+.pregunta3 {
+    margin: 0px;
+    background-color: #37E2D5;
+    color: white;
+    font-size: 20px;
+}
+
+
+
+
+
+

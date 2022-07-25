@@ -1,29 +1,31 @@
 import React from "react";
 //importando imagen de logo
 import logo500x500 from "../img/logo-500x500.png";
+//importando imagen login con posit
+import posit from "../img/posit1.png";
 
 const LoginComponent = () => {
     return (
         <div className="container-fluid contenedor" id="fondo-color">
 
             {/* la clase contenedor es para ocupar el alto 100% en CSS */}
-            <div className="row contenedor">
+            <div className="cuerpo row contenedor">
                 {/* la clase contenedor es para ocupar el alto 100% en CSS */}
                 <div className="col inicio-L">
                     {/* columna divicion izquierda */}
                     <div className="row">
                         <div className="col-3">{/* un espacio vacio para centrar */}</div>
-                        <div className="col">
+                        <div className="col text-center">
 
                             {/* columna central */}
-                            <div className="text-center">
-                                {/* imagen del logo Daily Stand APP  */}
-                                <img
-                                    id="logo-inicio"
-                                    src={logo500x500}
-                                    alt="logo Daily Stand App 500x500"
-                                />
-                            </div>
+
+                            {/* imagen del logo Daily Stand APP  */}
+                            <img
+                                id="logo-inicio"
+                                src={logo500x500}
+                                alt="logo Daily Stand App 500x500"
+                            />
+
                             <div>
                                 {/* titulo iniciar sesion centrado */}
                                 <p className="text-center my-4">
@@ -66,7 +68,7 @@ const LoginComponent = () => {
                                         <a
                                             type="button"
                                             className="btn btn-primary btn-lg"
-                                            href="misgrupos.html"
+                                            href="/MisGrupos"
                                             role="button"
                                         >
                                             Iniciar Sesión
@@ -94,9 +96,16 @@ const LoginComponent = () => {
                         </div>
                         <div className="col-3">{/* un espacio vacio para centrar */}</div>
                     </div>
+
                 </div>
                 <div className="col inicio-R">
+
                     {/* aqui va el fondo azul con las imagenes */}
+                     <img
+                                id="posit"
+                                src={posit}
+                                alt="posit"
+                            />
                 </div>
             </div>
         </div>

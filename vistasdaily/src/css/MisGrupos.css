@@ -1,38 +1,24 @@
-.titulo{
-    border-radius: 5px;
-    background-color: white;
-}
-
-.logoesquina{
-    width: 200px;
-}
-
-.fondo1{
-    background-color:#f7f6f6;
-}
-
-.fondo2{
-    background-color:whitesmoke;
-}
-
+/*Ajustando el tamaño de la foto de perfil, su posición y que va sobre p*/
 #fotoPerfil {
     width: 80px;
     height: 80px;
     position: absolute;
     z-index: 1;
 }
+
 /*ajuste del lugar y forma junto a la foto de perfil*/
-perfil{
+.pfoto {
     background-color: rgba(0, 0, 0, 0.10);
     padding: 20px;
     border-radius: 35px;
     text-align: center;
     vertical-align: middle;
-    margin-left: 50px;
+    margin-left: 40px;
     width: 200px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
-#logovistageneral {
-    width: 200px;
+/*Texto centrado*/
+table {
+    text-align: center;
 }

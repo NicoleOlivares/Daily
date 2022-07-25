@@ -1,20 +1,28 @@
 import React from "react";
 //importando imagen de logo
 import logo500x300 from "../img/logo-500x300.png";
+//importando imagen perfil
+import fotoPerfil from "../img/fotoCarnet.jpg";
 
-const RegistroComponent = () => {
+const PerfilComponent = () => {
     return (
         <>
             <div className="contenedor container-fluid">
                 <div className="header d-flex justify-content-around d-flex align-items-center">
                     <div className="col d-flex justify-content-around d-flex align-items-center">
                         {/* <h3>header1</h3> */}
-                        <a type="button" className="btn btn-primary" href="/">
-                            Atrás
-                        </a>
+                        <div className="my-3">
+                            <img
+                                src={fotoPerfil}
+                                className="img-responsive rounded-circle border border-dark img-fluid"
+                                id="fotoPerfil"
+                            />
+                            {/*Nombre usuario junto a la foto de perfil*/}
+                            <p className="pfoto position-relative">María Ponce</p>
+                        </div>
                     </div>
                     <div className="titulo col text-center border border-secondary m-5 p-2">
-                        <h3>Registro de Usuario</h3>
+                        <h3>Perfil de Usuario</h3>
                     </div>
                     <div className="col d-flex justify-content-around d-flex align-items-center">
                         {/* <h3>header3</h3> */}
@@ -101,10 +109,9 @@ const RegistroComponent = () => {
                                     />
                                 </div>
                                 <br />
-                                <div className="botonesCentro text-center">
-                                    <button type="submit" className="btn btn-secondary ">
-                                        Registrar
-                                    </button>
+                                <div class="botonesCentro row">
+                                    <button type="submit" class="btn btn-secondary mx-3 col">Guardar cambios</button>
+                                    <a type="button" class="btn btn-secondary mx-3 col align-middle " href="/MisGrupos">Mis grupos</a>
                                 </div>
                             </form>
                         </div>
@@ -119,4 +126,4 @@ const RegistroComponent = () => {
 
 }
 
-export default RegistroComponent;
+export default PerfilComponent;
