@@ -12,11 +12,14 @@ const RecuperacionContraseñaComponent = () => {
                 <img className="logo" src={logo500x300} alt="Logo Daily Stand APP" />
             </header>
             <section className="container">
-                <div className="div-titulo col d-flex justify-content-center align-items-center">
-                    <p className="border border-dark py-3 px-5 mt-3 rounded-3 text-center">Recuperación de cuenta</p>
+                <div className="col div-titulo d-flex justify-content-center align-items-center">
+                    <p className="border border-dark py-3 px-5 mt-3 rounded-3 text-center">Recuperación de cuenta </p>
+                </div>
+                <div className="col div-titulo d-flex justify-content-center align-items-center">
+                    <p className="letra bg-dark py-3 px-5 mt-3 rounded-3 text-center">Ingresa tu correo y podrás establecer una nueva contraseña por medio del enlace que te enviaremos.</p>
                 </div>
                 <div className="div-form col d-flex justify-content-center align-items-center">
-                    <form action="#" method="post" className="col-sm-5">
+                    <form action="#" method="post" className="col-sm-5 my-5">
                         <label className="form-label" for="email">Email</label>
                         <div className="input-group flex-nowrap mb-4">
                             <span className="input-group-text" id="addon-wrapping"><img className="email" src={email} alt="" /></span>

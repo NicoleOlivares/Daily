@@ -12,11 +12,16 @@ header{
 }
 
 .div-form{
-    height: 70hv;
+    height: auto;
 }
 
 .email{
     width: 30px;
+}
+
+.letra{
+    color: white;
+    width: 50%;
 }
 
 
